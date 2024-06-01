@@ -1,0 +1,22 @@
+.restaurants-page-container {
+  padding: 10px;
+}
+
+.restaurants-header {
+  border-bottom: 2.5px solid #ed2647;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+
+.restaurants-header-text {
+  padding: 1rem;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .restaurants-header-text {
+    font-size: 20px;
+  }
+}

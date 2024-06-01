@@ -1,0 +1,44 @@
+.restaurant-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #fab1bd;
+  /* padding: 1rem; */
+  cursor: pointer;
+}
+.restaurant-card:hover {
+  background-color: #d3d3d3;
+  transition: all 0.5s ease;
+}
+.restaurant-image-container > img {
+  object-fit: cover;
+  width: 300px;
+}
+
+.restaurant-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.restaurant-text {
+  margin-left: 0.5rem;
+}
+
+.restaurant-name {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .restaurant-image-container > img {
+    width: 150px;
+  }
+
+  .restaurant-name {
+    font-size: 20px;
+  }
+
+  .restaurant-details {
+    font-size: small;
+  }
+}

@@ -1,0 +1,28 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  margin: 32px 16px 0px 16px;
+  flex: 1;
+}
+
+.register-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 100%;
+  width: 500px;
+}
+
+.register-text {
+  font-weight: bold;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.register-modal-title {
+  display: flex;
+  justify-content: space-between;
+}

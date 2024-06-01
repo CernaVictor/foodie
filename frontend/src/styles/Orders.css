@@ -1,0 +1,75 @@
+.restaurant-order-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  min-height: 400px;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ed2647;
+  border-radius: 16px;
+  box-shadow: 2px 2px #ed2647;
+  padding: 16px;
+  background-color: #fff;
+  width: 90%;
+  max-width: 600px;
+  cursor: pointer;
+}
+
+.order:hover {
+  background-color: #fff6f7;
+}
+
+.order-details {
+  color: gray;
+  margin-bottom: 8px;
+}
+
+.cart-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.cart-item-details {
+  display: flex;
+  gap: 8px;
+}
+
+.order-status {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.empty-state {
+  margin-top: 64px;
+  height: calc(100vh - 350px);
+}

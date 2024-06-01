@@ -1,0 +1,63 @@
+.edit-address-modal-container {
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-address-top-section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-button {
+  color: #ed2647;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.choose-address-section {
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+}
+.autocomplete-address-section {
+  flex-grow: 1;
+}
+.confirm-address-btn {
+  background-color: #ed2647;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 14px;
+  font-weight: 500;
+  transition: all 0.5s ease;
+  width: 150px;
+  right: 0;
+  margin-top: 2rem;
+}
+
+.confirm-address-btn:hover {
+  opacity: 0.4;
+}
+
+.current-address-section {
+  height: 5rem;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 2px solid #d3d3d3;
+  cursor: pointer;
+}
+
+.current-address-text {
+  padding-left: 0.5rem;
+}

@@ -1,0 +1,10 @@
+.home-page-container {
+  padding: 50px;
+}
+
+@media (max-width: 499px) {
+  .home-page-container {
+    padding: 10px;
+    margin-top: 1rem;
+  }
+}

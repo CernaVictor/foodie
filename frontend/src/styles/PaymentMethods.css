@@ -1,0 +1,37 @@
+.payment-methods {
+  /* border: 1px solid #ccc; */
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.payment-methods h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.method {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.method span:first-child {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.method span:first-child svg {
+  margin-right: 5px;
+}
+
+.method span:last-child {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+ .payment-methods {
+    padding: 20px;
+ }
+}

@@ -1,0 +1,51 @@
+.home-map-container {
+  position: relative;
+  margin-top: 3rem;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  /* height: 500px; Ensure this matches the height of your map */
+}
+
+.map-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4); /* Adjust opacity as needed */
+  backdrop-filter: blur(1px); /* Blurs the background map */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.map-overlay-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.overlay-button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  background-color: #ed2647;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.overlay-button:hover {
+  background-color: #bebebe;
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 499px) {
+  .overlay-button {
+    padding: 10px 20px;
+  }
+}
